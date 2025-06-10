@@ -2,9 +2,11 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-include 'includes/config.php';
+
 $pageSpecificCSS = 'about/css/index.css';
-include 'includes/header.php'; 
+
+include(__DIR__ .'\..\includes\config.php');
+include(__DIR__ . '\..\includes\header.php');
 ?>
 
 <main class="about-page">
@@ -211,4 +213,4 @@ include 'includes/header.php';
     }
 </style>
 
-<?php include 'includes/footer.php'; ?>
+<?php include (__DIR__ .'\..\includes/footer.php') ; ?>

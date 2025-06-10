@@ -1,7 +1,7 @@
 <?php 
 $pageTitle = "Компании группы";
-include 'includes/config.php'; 
-include 'includes/header.php'; 
+include(__DIR__ .'\..\includes\config.php');
+include(__DIR__ . '\..\includes\header.php');
 ?>
 
 <main class="group-companies-page">
@@ -38,4 +38,4 @@ include 'includes/header.php';
 
 <link rel="stylesheet" href="/css/group-companies.css">
 
-<?php include 'includes/footer.php'; ?>
+<?php include (__DIR__ .'\..\includes/footer.php') ; ?>

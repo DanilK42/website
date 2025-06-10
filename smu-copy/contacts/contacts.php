@@ -1,8 +1,8 @@
 <?php
 $title = "Контакты - СМУ-1";
-include 'includes/config.php'; 
+include(__DIR__ .'\..\includes\config.php');
 $root = $_SERVER['DOCUMENT_ROOT'];
-require_once $root . '/includes/header.php';
+require_once __DIR__ . '/../includes/header.php';
 ?>
 
 <main class="contacts-page">
@@ -58,4 +58,4 @@ require_once $root . '/includes/header.php';
     </div>
 </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php include (__DIR__ .'\..\includes/footer.php') ; ?>

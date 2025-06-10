@@ -1,8 +1,10 @@
 <?php
 $title = "Проекты - СМУ-1";
-include 'includes/config.php'; 
+
 $root = $_SERVER['DOCUMENT_ROOT'];
-require_once $root . '/includes/header.php';
+require_once __DIR__ . '/../includes/header.php';
+include(__DIR__ .'\..\includes\config.php');
+
 ?>
 
 <main class="projects-page">

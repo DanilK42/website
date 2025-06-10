@@ -2,11 +2,13 @@
 // Включение отображения ошибок
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+include(__DIR__ .'\..\includes\config.php');
+include(__DIR__ . '\..\includes\header.php');
 
-include 'includes/config.php';
-$pageSpecificCSS = 'about/css/index.css'; // Правильный путь к CSS
-include 'includes/header.php'; 
+$pageSpecificCSS = 'about/css/index.css'; 
+
 ?>
+
 
 <main class="about-page">
     <div class="container">
@@ -181,4 +183,4 @@ include 'includes/header.php';
 </style>
 </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php include (__DIR__ .'\..\includes/footer.php') ; ?>
